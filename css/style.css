@@ -15,6 +15,23 @@
     letter-spacing: 0.03em;
   }
 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  ul,ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+
   .list{
     list-style: none;
    }
@@ -37,13 +54,19 @@ color:var(--secondary-text-color);
   color: var(--accent-color);
 }
 
-.site-list{ 
+.site-list{
+display: flex; 
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--secondary-text-color);
 }
+
+.site-link{
+  margin-right: 50px ;
+}
+
 
 .site-link:hover,
 .site-link:focus{
