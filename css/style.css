@@ -41,8 +41,7 @@
    }
 
 /* Шапка проекта Webstudio*/
-.logo{
-  
+.logo{ 
 font-family: var(--secondary-font-family);
 font-weight: bold;
 font-size: 26px;
@@ -54,8 +53,9 @@ color:var(--secondary-text-color);
   color: var(--accent-color);
 }
 
+
 .site-list{
-display: flex; 
+display: flex;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -88,7 +88,14 @@ color: var( --primary-text-color );
 .contact-link:hover,
 .contact-link:focus {
 color: var(--accent-color);
+
 }
+
+.site-nav{
+  display: flex;
+  align-items: center;
+}
+
 /* сукция героик */
 .hero{
   background-color: #2F303A;
@@ -232,4 +239,10 @@ font-weight: normal;
 font-size: 16px;
 line-height: 1.87;
 color: var(--primary-text-color);
+}
+
+.container{
+  width: 1200px;
+  margin-left:auto ;
+  margin-right: auto;
 }
