@@ -203,11 +203,11 @@ color: var(--secondary-text-color);
 .work-list{
   display: flex;
   align-items: center;
+  padding-bottom: 94px;
 }
 
-/* .img-title{
-  padding-right:30px ;
-} */
+
+
 
 .img-title:not(:last-child){
   padding-right:30px ;
