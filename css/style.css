@@ -82,6 +82,18 @@ color: var(--secondary-text-color);
   color:var(--accent-color) ;
 }
 
+.site-link{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color:var(--secondary-text-color );
+
+}
+
+
 .contact-link {
 font-weight: 500;
 font-size: 14px;
@@ -117,26 +129,26 @@ color: var(--accent-color);
 .header-container{
   display: flex;
   align-items: center;
-  padding-top:24px ;
-  padding-bottom:25px;
- 
   
 }
 
 .header{
-  border-bottom: 1px solid #ECECEC 
+  border-bottom: 1px solid #ECECEC ;
+  padding-top: 24px;
+  padding-bottom:25px;
 }
 
 
 /* сукция героик */
 .hero{
+padding-top:200px ;
+padding-bottom: 200px;
 height: 600px;
 background-color: #2F303A;
 text-align: center;
 }
 
 .hero-title{
-padding-top:200px ;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -146,7 +158,12 @@ color: var(--primary-bg-color);
 }
 
 .button{
-margin-top: 40px;
+padding-left:32px ;
+padding-right:32px ;
+padding-top:10px ;
+padding-bottom:10px ;
+margin-top: 30px;
+border-radius: 4px;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
@@ -166,7 +183,7 @@ background-color:#188CE8;
 margin-bottom: 10px;
 font-weight: bold;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 text-transform: uppercase;
 color:var(--secondary-text-color);
 }
@@ -186,12 +203,16 @@ color:var(--secondary-text-color);
   padding-bottom: 47px;
 }
 
-
+.features-paragraph{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
 
 
 /* Робочая секция */
 .section-title {
-padding-top:47px;
 margin-bottom: 50px;
 font-weight: bold;
 font-size: 36px;
@@ -203,7 +224,7 @@ color: var(--secondary-text-color);
 .work-list{
   display: flex;
   align-items: center;
-  padding-bottom: 94px;
+
 }
 
 
@@ -213,17 +234,22 @@ color: var(--secondary-text-color);
   padding-right:30px ;
 }
 
+.work-section{
+ padding-top:47px;
+ padding-bottom: 94px;
+}
 
 
 
 /* Наша команда */
 
 .team-section{
+padding-top: 94px;
+padding-bottom: 94px;
 background-color:  var(--primary-bg-color-filter);
 }
 
 .title {
-  margin-top: 30px;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
@@ -233,7 +259,6 @@ color: var(--secondary-text-color);
 
 .profession{
 margin-top: 10px;
-margin-bottom: 30px;
 font-size: 16px;
 line-height: 1.18;
 text-align: center;
@@ -242,7 +267,6 @@ color:var(--primary-text-color);
 }  
 
 .section-team-title{
-padding-top: 94px;
 font-weight: bold;
 font-size: 36px;
 line-height: 1.16;
@@ -252,7 +276,6 @@ color: var(--secondary-text-color);
 
 
 .team-list{
-  padding-bottom: 94px;
   display: flex;
   align-items: center;
 }
@@ -265,6 +288,10 @@ color: var(--secondary-text-color);
   margin-top: 50px;
 }
 
+.name-profession{
+  padding-top:30px ;
+  padding-bottom:30px ;
+}
 
 
 /* Футер */
@@ -287,7 +314,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 24px;
-color: var(--primary-text-color);
+color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-link:hover,
@@ -315,9 +342,9 @@ color: var(--primary-bg-color);
 background-color:var(--accent-color) ;
 color: var(--primary-bg-color);
 }
+
 .filter-btn {
-width: 128px;
-height: 38px;
+padding:6px 20px ;
 border-radius: 4px ;
 border: none;  
 font-family: inherit;
@@ -344,6 +371,7 @@ color: var(--secondary-text-color);
 }
 
 .work-profession{
+margin-top: 4px;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -366,15 +394,14 @@ color: var(--primary-text-color);
   margin-bottom: 50px;
 }
 
-.filter-item:not(:last-child) {
+.filter-item:not(:last-child) 
+{
   margin-right: 8px;
 }
   
 .works-list{
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 94px ;
- 
 }
 
 .works-title{
@@ -395,11 +422,13 @@ border: 1px solid #EEEEEE;
 
 .our-work {
   padding-top: 94px;
+  padding-bottom: 94px ;
 }
 
 .text-position{
-  padding-left: 24px;
-  padding-right: 24px;
+  padding: 20px 24px;
+  
+
 }
 
 .address {
@@ -415,4 +444,7 @@ border: 1px solid #EEEEEE;
 
 .footer-list .footer-item:not(:last-child){
   margin-bottom: 9px;
+}
+
+
 }
